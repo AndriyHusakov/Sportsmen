@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 750px;
+    height: 1500px;
+    background: #ebeaea;
+
+}
+
+.sportsmen {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+
+}
+
+h2 {
+    font-family: Roboto;
+    color: #2F4F4F;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.box:hover{
+    background: #e9b6b6;
+    border-radius: 150px;
+    transition-duration: 2s;
+}
+.box{
+    transition-duration: 2s;
+}
